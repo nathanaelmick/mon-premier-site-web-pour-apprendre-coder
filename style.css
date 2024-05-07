@@ -1,0 +1,274 @@
+.orange
+{
+    color: orange;
+}
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.conteneur
+{
+    width: 940px;
+    margin: 0px auto;
+    padding: 0 10px;
+}
+li
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+}
+header .conteneur h1
+{
+    font-size: 45px;
+    font-family: 'Create Round', serif;
+    color: #444;
+    float: left;
+    margin-top: 32px;
+}
+header
+{
+    height: 120px;
+}
+header nav
+{
+    margin-top: 50px;
+    float: right;
+}
+header nav ul li
+{
+    display: inline-block;
+   
+}
+header nav ul li a
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+/* ***********IMAGE PRINCIPALE************** */
+
+#imagePrincipale .conteneur 
+{
+    height: 500px;
+    background: url('images/img1.jpg') center no-repeat;
+}
+
+#imagePrincipale .conteneur h2
+{
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 150px 0 40px 0;
+    color: yellow;
+    margin-bottom: 20px;
+}
+.gras
+{
+    font-weight: bold;
+}
+
+.bouton_1
+{
+    display: block;
+    width: 120px;
+    height: 50px;
+    background: orange;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 50px;
+    border-radius: 3px;
+}
+.bouton_1:hover
+{
+    background-color: blue;
+    transition: 0.5 s;
+}
+
+/********************* OPTION *******************/
+#option .conteneur div
+{
+    width: 300px;
+    float: left;
+    padding: 130px 0;
+    text-align: center;
+    margin: 80px 5px;
+    margin-bottom: 10px;
+}
+#option .conteneur h4
+{
+    font-size: 24px;
+    color: #444;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+#option .conteneur p
+{
+    line-height: 20px;
+    color: #777;
+}
+#planifier
+{
+    background: url('images/img2.png') no-repeat center top;
+}
+#organiser
+{
+    background: url('images/img3.png') no-repeat center top;
+}#voyager
+{
+    background: url('images/img4.png') no-repeat center top;
+}
+
+.clear
+{
+    clear: both;
+}
+
+/**** ********* PROJET ************* */
+#projet 
+{
+    background-color: #efefef;
+    padding: 60px 0;
+    margin-bottom: 30px;
+}
+#projet .conteneur article
+{
+    width: 460px;
+    height: 330px;
+    float: left;
+    border-radius: 10px;
+}
+#famille
+{
+    background: url('images/img5.jpg') no-repeat;
+    margin-right: 20px;
+}
+#evader
+{
+    background: url('images/img6.jpg') no-repeat;
+}
+
+.couche
+{
+    background: rgba(255, 255, 255, 0.95);
+    height: 290px;
+    width: 190px;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+}
+
+#projet .conteneur article h4
+{
+    font-size: 24px;
+    color: #444;
+    text-transform: uppercase;  
+    border-bottom: 1px solid #ddd;  
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#projet .conteneur article p
+{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 13px;
+    font-style: italic;
+    color: #777;
+    margin-top: 20px;
+}
+
+.bouton_2
+{
+    color: #fff;
+    margin: 40px auto; 
+    background-color: orange;
+    display: block;
+    height: 20px;
+    width: 90px;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 3px;
+    padding: 10px 0;
+}
+
+.bouton_2:hover
+{ 
+    color: #fff;
+    background-color: #02b8dd;
+    transition: 0.5s;
+}
+
+/* ******************** CONTACT *********************** */
+
+#contact .conteneur h3
+{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+    width: 410px;
+    padding: 18px ;
+    margin: 30px auto;
+    border-bottom: 4px solid #00aeff;
+}
+
+#contact .conteneur p
+{
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+#formulaire
+{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 80px 0;
+}
+#formulaire input
+{
+    padding: 5px;
+    font-size: 21px;
+}
+#formulaire button
+{
+    background-color: hsl(199, 74%, 59%);
+    padding: 3px;
+    color: white;
+    font-size: 23px;
+    margin-left: 10px;
+}
+#formulaire label
+{
+    margin: 0 8px;
+}
+
+
+/* **************** FOOTER ******************** */
+
+footer  
+{
+    background-color: rgb(63, 62, 62);
+    text-align: center;
+    height: 130px;
+    padding: 90px 0;
+}
+footer .conteneur h1
+{
+    color: rgb(241, 239, 239);
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+footer .conteneur p
+{
+    color: gray;
+}

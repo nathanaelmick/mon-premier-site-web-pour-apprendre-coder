@@ -1,10 +1,107 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-   <title></title>
-   <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Travel Agency</title>
 </head>
 <body>
-   <h1>Un super titre</h1>
+    
+    <header>
+        <div class="conteneur">
+            <h1 class="logo">Travel Agency<span class="orange">.</span></h1>
+            <nav>
+               <ul>
+                    <li><a href="#imagePrincipale">Accueil</a></li>
+                    <li><a href="#option">destination</a></li>
+                    <li><a href="#projet">circuits</a></li>
+                    <li><a href="#contact">contact</a></li>
+               </ul>
+            </nav>
+        </div>
+        
+    </header>
+
+    <section id="imagePrincipale">
+        <div class="conteneur">
+            <h2>organiser votre <br><span class="gras">voyage sur mesure</span></h2>
+            <a href="#" class="bouton_1">Par ici</a>
+        </div>
+        
+    </section>
+
+    <section id="option">
+        <div class="conteneur">
+            <div id="planifier">
+                <h4>Planifier</h4>
+                <p>Confiez-nous vos rêves d'évasion en famille ou entre amis, nous trouverons la formule qui comblera vos attentes</p>
+            </div>
+            <div id="organiser">
+                <h4>organiser</h4>
+                <p>Bénéficiez de l'expertise de nos spécialistes de chaque destination, ils vous accompagnent dans la réalisation de votre voyage</p>
+            </div>
+            <div id="voyager">
+                <h4>voyager</h4>
+                <p>Nous nous chargeons d'assurer votre sécurité et de veiller à votre pleine sérénité tout au long de votre voyage</p>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </section>
+
+    <section id="projet">
+        <div class="conteneur">
+            <article id="famille">
+                <div class="couche">
+                    <h4>partez en famille</h4>
+                    <div class="premierTrait"></div>
+                    <p>Offrez le meilleur à ceux que vous aimez et partager des moments fabuleux !</p>
+                    <a href="#" class="bouton_2">Plus d'infos</a>
+                </div>
+            </article>
+            <article id="evader">
+                <div class="couche">
+                    <h4>envie de s'evader</h4>
+                    <div class="premierTrait"></div>
+                    <p>Parlons un peu d'évasion serait le bienvenue et ferait le plus grand bien !</p>
+                    <a href="#" class="bouton_2">Plus d'infos</a>
+                </div>
+            </article>
+            
+        </div>
+        <div class="clear"></div>
+
+
+    </section>
+
+    <section id="contact">
+        <div class="conteneur">
+            <h3>contactez-nous</h3>
+            <p>Chez Travel Agency nous savons que voyager est une aventure humaine mais également financier important pour vous. C'est pourquoi nous mettons un point d'honneur à prendre en compte chacune de vos attentes pour vous aider dans la préparation de votre séjour, circuit ou voyager sur mesure.</p>
+
+            <div id="formulaire">
+                <form>
+                    <label for="nom">Nom</label>
+                    <input type="text" name="nom" placeholder="Votre nom">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" placeholder="Votre email"> 
+                    <button>OK</button>
+                </form>
+                
+            </div>
+        </div>
+        
+        
+    </section>
+
+    <footer>
+        <div class="conteneur">
+            <h1 class="logo">Travel Agency<span class="orange">.</span></h1>
+            <div class="clear"></div>
+            <p>Copyrigth 2024. nathanael projet d'étude</p>
+        </div>
+    </footer>
+
 </body>
 </html>
